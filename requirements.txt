@@ -4,3 +4,4 @@ sklearn
 flask
 matplotlib
 gunicorn
+seaborn
