@@ -1,6 +1,6 @@
 import pickle
 from flask import Flask, request, jsonify
-from ml_model import predict_mpg
+from model_files.ml_model import predict_mpg
 
 
 app = Flask('mpg_prediction')
@@ -22,3 +22,4 @@ def predict():
 @app.route('/ping', methods=['GET'])
 def ping():
     return "Pinging Model!!"
+
